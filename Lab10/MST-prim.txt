@@ -1,0 +1,26 @@
+MST Prim Pseudocode, Natural Language
+
+for each vertex u in G:
+
+    set u.key to inf (in python = float('inf') and java = Integer.MAX_VALUE)
+
+    set u.parent to None/NULL, which means that u is not yet connected to any other verex in the MST
+
+set root vertex key to 0
+
+init an empty priority queue to store the graph's vertices
+
+insert all the vertices of graph G into the priority queue, the priority is determined by its key
+
+while the priority queue is not empty:
+    extract the vertex u with the min key value from Q, adding u to the MST
+
+    iterate over all neighboring vertices v of u in the adjacency list G.adj[u]
+
+        if v in queue and the weight of the edge connecting u and v (w(u, v)) is less that the current key 
+
+        set v's parent to u
+
+        update v's key to the weight of the edge between u and value
+
+        Update v's priority in the queue with the new key value

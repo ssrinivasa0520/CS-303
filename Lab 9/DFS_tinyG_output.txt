@@ -1,0 +1,40 @@
+DFS on tinyG.txt File:
+
+Path from Source Vertex 0 to Vertex 0
+    0
+
+Path from Source Vertex 0 to Vertex 1
+    0, 1
+
+Path from Source Vertex 0 to Vertex 2
+    0, 2
+
+Path from Source Vertex 0 to Vertex 3
+    0, 5, 4, 3
+
+Path from Source Vertex 0 to Vertex 4
+    0, 5, 4
+
+Path from Source Vertex 0 to Vertex 5
+    0, 5
+
+Path from Source Vertex 0 to Vertex 6
+    0, 5, 4, 6
+
+Path from Source Vertex 0 to Vertex 7
+    no path from 0 to 7 exists
+
+Path from Source Vertex 0 to Vertex 8
+    no path from 0 to 8 exists
+
+Path from Source Vertex 0 to Vertex 9
+    no path from 0 to 9 exists
+
+Path from Source Vertex 0 to Vertex 10
+    no path from 0 to 10 exists
+
+Path from Source Vertex 0 to Vertex 11
+    no path from 0 to 11 exists
+
+Path from Source Vertex 0 to Vertex 12
+    no path from 0 to 12 exists

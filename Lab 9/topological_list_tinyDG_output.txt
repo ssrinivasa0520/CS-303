@@ -1,0 +1,4 @@
+TinyDG.txt (directed graph):
+
+Topological List:
+     0 4 5 1 7 3 6 2
